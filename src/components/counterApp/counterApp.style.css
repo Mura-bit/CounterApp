@@ -1,7 +1,7 @@
 .main {
     width: 600px;
     height: 300px;
-    background-color: #107819;
+    background: radial-gradient(circle, rgba(101,86,128,1) 34%, rgba(43,22,82,1) 81%);
     border-radius: 20px;
 }
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./counterButton.style.css";
-const CounterButton = ({ name, type }) => {
+const CounterButton = ({ type }) => {
     const [count, setCount] = useState(0);
     const coundHandler = () => {
         if (count <= 140) {
