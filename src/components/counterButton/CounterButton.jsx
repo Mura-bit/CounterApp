@@ -15,17 +15,17 @@ const CounterButton = ({ type }) => {
     };
 
     const resetHandler = () => {
-      if (count <= 140) {
+      if (count <= 150) {
         setCount(count - count);
       }
   };
   const multiHandler = () => {
-    if (count <= 140) {
+    if (count <= 145) {
       setCount(count + 5);
     }
   };
   const devideHandler = () => {
-    if (count <= 140) {
+    if (count >= 5) {
       setCount(count - 5);
     }
   };
